@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kennery — Where Did I Put It</title>
+<meta name="description" content="A small, private index for the things you've tucked away. Write down where it is once. Find it in seconds. $4.99 once, no subscription, ever." />
+<meta property="og:title" content="Kennery — Where Did I Put It" />
+<meta property="og:description" content="A small, private index for the things you've tucked away. Write down where it is once. Find it in seconds." />
+<meta property="og:image" content="https://kennery.app/img/og-image.png" />
+<meta property="og:url" content="https://kennery.app/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="robots" content="index,follow" />
+<style>
+  :root{--paper:#f6f1e7;--card:#fffdf9;--ink:#2b2117;--muted:#675b4c;--brass:#b07a23;--brass-deep:#7d5413;--line:#ebe2d0}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;line-height:1.6;
+    -webkit-font-smoothing:antialiased}
+  .serif{font-family:"New York","Iowan Old Style",Georgia,"Times New Roman",serif}
+  a{color:var(--brass-deep)}
+  .wrap{max-width:920px;margin:0 auto;padding:0 24px}
+
+  header{padding:28px 0 0}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand img{width:40px;height:40px;border-radius:10px;display:block}
+  .brand span{font-family:"New York","Iowan Old Style",Georgia,serif;font-weight:600;font-size:20px}
+
+  .hero{padding:56px 0 40px;text-align:center}
+  .hero h1{font-size:clamp(32px,6vw,52px);line-height:1.1;margin:0 0 16px;font-weight:600}
+  .hero p{font-size:19px;color:var(--muted);max-width:52ch;margin:0 auto 28px}
+  .badge{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);
+    border-radius:999px;padding:10px 20px;font-size:14px;color:var(--muted);font-weight:600}
+  .badge b{color:var(--brass-deep)}
+
+  .shots{display:flex;gap:16px;overflow-x:auto;padding:12px 0 44px;scroll-snap-type:x proximity}
+  .shots img{height:380px;border-radius:20px;border:1px solid var(--line);box-shadow:0 12px 30px rgba(78,55,20,.12);
+    scroll-snap-align:center;flex:0 0 auto}
+
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  h2{font-family:"New York","Iowan Old Style",Georgia,serif;font-size:26px;margin:0 0 18px;font-weight:600}
+
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:680px){.steps{grid-template-columns:1fr}}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .step .n{font-family:"New York","Iowan Old Style",Georgia,serif;color:var(--brass);font-size:14px;font-weight:700;margin-bottom:8px}
+  .step p{margin:0;color:var(--muted);font-size:15px}
+
+  .price{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .price .amt{font-family:"New York","Iowan Old Style",Georgia,serif;font-size:40px;font-weight:600}
+  .price .note{color:var(--muted)}
+  .plist{margin:16px 0 0;padding:0;list-style:none;color:var(--muted);font-size:15px}
+  .plist li{padding:6px 0 6px 26px;position:relative}
+  .plist li:before{content:"—";position:absolute;left:0;color:var(--brass)}
+
+  .privacy p{color:var(--muted);max-width:64ch}
+
+  .support .row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
+    background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-top:6px}
+  .support .row span{color:var(--muted);font-size:15px}
+  .btn{display:inline-block;background:var(--brass-deep);color:#fff;text-decoration:none;font-weight:600;
+    padding:10px 20px;border-radius:999px;font-size:14.5px}
+
+  footer{padding:36px 0 60px;color:var(--muted);font-size:13.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand"><img src="img/icon-256.png" alt="Kennery icon" /><span>Kennery</span></div>
+  </header>
+
+  <div class="hero">
+    <h1 class="serif">I know I put it<br>somewhere.</h1>
+    <p>Kennery is a small, private index for the things you've tucked away. Write down where it is, once — search for it months later, and find it in seconds.</p>
+    <span class="badge">Coming soon to the <b>App Store</b> · iPhone</span>
+  </div>
+
+  <div class="shots">
+    <img src="img/shot-1.jpg" alt="Kennery search and item list" loading="lazy" />
+    <img src="img/shot-2.jpg" alt="Kennery item detail with photo" loading="lazy" />
+    <img src="img/shot-3.jpg" alt="Kennery milestone screen" loading="lazy" />
+    <img src="img/shot-4.jpg" alt="Kennery empty state" loading="lazy" />
+  </div>
+
+  <section>
+    <h2 class="serif">How it works</h2>
+    <div class="steps">
+      <div class="step"><div class="n">01</div><p>Add an item — a short note on where it lives. "Winter boots, under the bed, blue bin."</p></div>
+      <div class="step"><div class="n">02</div><p>Snap a photo if it helps you recognize it faster. Totally optional.</p></div>
+      <div class="step"><div class="n">03</div><p>Months later, search "boots." Kennery tells you where you put it.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="serif">What it isn't</h2>
+    <p style="color:var(--muted);max-width:64ch">It's not a home-inventory system for insurance, not a moving-box labeler, not a warehouse tool repurposed for home use. It's one running list you add to in ten seconds whenever you put something somewhere non-obvious — so future you doesn't have to open six closets to find the spare charger.</p>
+  </section>
+
+  <section>
+    <h2 class="serif">Pricing</h2>
+    <div class="price">
+      <span class="amt">$4.99</span>
+      <span class="note">once — no subscription, ever</span>
+    </div>
+    <ul class="plist">
+      <li>Free tier holds 20 items — enough for the handful of things people actually lose track of</li>
+      <li>Pro removes the limit, for a one-time purchase</li>
+      <li>No trial to remember to cancel, because there's nothing to cancel</li>
+    </ul>
+  </section>
+
+  <section class="privacy">
+    <h2 class="serif">Privacy</h2>
+    <p>No accounts, no cloud sync, no analytics, no ads. Everything you add — names, locations, photos — stays on your device. You can export a personal backup any time, entirely under your control.</p>
+    <p><a href="https://tomhornig.github.io/kennery-privacy/">Read the full privacy policy →</a></p>
+  </section>
+
+  <section class="support">
+    <h2 class="serif">Support</h2>
+    <div class="row">
+      <span>Question, bug, or feedback? I read every email myself.</span>
+      <a class="btn" href="mailto:tomhornig@gmail.com?subject=Kennery%20support">Email support</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Kennery</span>
+    <span><a href="https://tomhornig.github.io/kennery-privacy/">Privacy Policy</a></span>
+  </footer>
+
+</div>
+</body>
+</html>
