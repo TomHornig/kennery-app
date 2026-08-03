@@ -3,14 +3,113 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Kennery — Where Did I Put It</title>
-<meta name="description" content="A small, private index for the things you've tucked away. Write down where it is once. Find it in seconds. $4.99 once, no subscription, ever." />
-<meta property="og:title" content="Kennery — Where Did I Put It" />
-<meta property="og:description" content="A small, private index for the things you've tucked away. Write down where it is once. Find it in seconds." />
+<title>Kennery: Home Inventory — Find What's in Each Box &amp; Bin</title>
+<meta name="description" content="A home inventory app without the cataloging project. Note where you put something — box, bin, closet — and search for it months later. Offline, no account. $4.99 once, no subscription." />
+<link rel="canonical" href="https://kennery.app/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Kennery: Home Inventory — Find What's in Each Box &amp; Bin" />
+<meta property="og:description" content="A home inventory app without the cataloging project. Note where you put something, then search for it months later. Offline, no account, $4.99 once." />
 <meta property="og:image" content="https://kennery.app/img/og-image.png" />
 <meta property="og:url" content="https://kennery.app/" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kennery: Home Inventory — Find What's in Each Box &amp; Bin" />
+<meta name="twitter:description" content="A home inventory app without the cataloging project. Note where you put something, then search for it months later. Offline, no account, $4.99 once." />
+<meta name="twitter:image" content="https://kennery.app/img/og-image.png" />
 <meta name="robots" content="index,follow" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Kennery: Home Inventory",
+      "alternateName": ["Kennery", "Kennery — Where Did I Put It"],
+      "keywords": "home inventory, household inventory, storage organizer, moving boxes, packing list, garage organizer, box labels, offline inventory, no subscription",
+      "audience": { "@type": "Audience", "audienceType": "Homeowners, renters, people moving house, and anyone who stores things seasonally" },
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "iOS",
+      "url": "https://kennery.app/",
+      "downloadUrl": "https://apps.apple.com/app/id6789454542",
+      "installUrl": "https://apps.apple.com/app/id6789454542",
+      "author": { "@type": "Person", "name": "Thomas Hornig" },
+      "offers": [
+        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD" },
+        { "@type": "Offer", "name": "Kennery Pro", "price": "4.99", "priceCurrency": "USD" }
+      ],
+      "featureList": [
+        "Photo plus a short location note per item",
+        "Text search over item name and location",
+        "One-tap \"Found it\" removal",
+        "Local-only storage, no account required",
+        "JSON backup export and import"
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Thomas Hornig",
+      "url": "https://tomhornig.blog",
+      "sameAs": [
+        "https://tomhornig.blog",
+        "https://thewholehorn.com",
+        "https://scholar.google.com/citations?user=-W4DGj0AAAAJ&hl=en"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What's the best home inventory app that isn't a subscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kennery is a one-time purchase — $4.99 once for Kennery Pro, no subscription, ever. The free tier tracks up to 20 items with no payment at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I remember which box I packed something in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Add the item to Kennery with a short note on where it is — \"winter boots, under the bed, blue bin\" — and an optional photo. Months later, search the name and Kennery shows you the note and photo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a home inventory app that works offline with no account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Kennery has no accounts, no cloud sync, and no analytics — every item, note, and photo stays on your device. You can export a personal JSON backup any time and import it later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many items can you track in Kennery for free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The free tier holds 20 items. Kennery Pro, a one-time $4.99 purchase with no subscription, removes the limit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's a simple home inventory app for moving house?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kennery is built for exactly the case where you pack a box, write one line about what went in it and where it ended up, and need to find that again on the other side of the move. There is no barcode scanning, no valuation fields, and no per-room setup to get through first — you add an item in about ten seconds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Kennery a home inventory app for insurance documentation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Kennery records where you put something, not what it is worth — there are no valuation, receipt, serial-number, or policy fields, and it produces no insurer-ready report. If you need documentation for an insurance claim, use a dedicated insurance inventory tool. Kennery is for finding things again."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <style>
   :root{--paper:#f6f1e7;--card:#fffdf9;--ink:#2b2117;--muted:#675b4c;--brass:#b07a23;--brass-deep:#7d5413;--line:#ebe2d0}
   *{box-sizing:border-box}
@@ -74,8 +173,8 @@
 
   <div class="hero">
     <h1 class="serif">I know I put it<br>somewhere.</h1>
-    <p>Kennery is a small, private index for the things you've tucked away. Write down where it is, once — search for it months later, and find it in seconds.</p>
-    <span class="badge">Coming soon to the <b>App Store</b> · iPhone</span>
+    <p>Kennery is a home inventory app for people who will never keep up a home inventory. Write down where you put something, once — search for it months later, and find it in seconds.</p>
+    <p><a class="badge" href="https://apps.apple.com/app/id6789454542">Download on the <b>App Store</b> · iPhone</a></p>
   </div>
 
   <div class="shots">
@@ -95,8 +194,9 @@
   </section>
 
   <section>
-    <h2 class="serif">What it isn't</h2>
-    <p style="color:var(--muted);max-width:64ch">It's not a home-inventory system for insurance, not a moving-box labeler, not a warehouse tool repurposed for home use. It's one running list you add to in ten seconds whenever you put something somewhere non-obvious — so future you doesn't have to open six closets to find the spare charger.</p>
+    <h2 class="serif">A home inventory you'll actually keep up</h2>
+    <p style="color:var(--muted);max-width:64ch">Most home inventory apps want you to catalog everything you own — categories, values, barcodes, receipts — and then charge a subscription to hold your own list. That's a project, and projects get abandoned in week two.</p>
+    <p style="color:var(--muted);max-width:64ch">Kennery is one running list you add to in ten seconds whenever you put something somewhere non-obvious — so future you doesn't have to open six closets to find the spare charger. Same job, none of the homework.</p>
   </section>
 
   <section>

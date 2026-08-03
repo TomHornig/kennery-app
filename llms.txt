@@ -1,0 +1,38 @@
+# Kennery: Home Inventory
+
+> Kennery is a home inventory app for people who will never keep up a real one. Instead of
+> cataloging everything you own, you write one short line about where something went —
+> "winter boots, under the bed, blue bin" — with an optional photo, and search for it months
+> later. Local-only: no accounts, no cloud sync, no analytics. Everything stays on the device.
+
+## Who it's for
+Homeowners, renters, and people moving house who lose track of things they've stored away —
+seasonal decorations, spare parts, documents, the box of cables in the garage — and want to
+find them again without building and maintaining a full inventory database.
+
+## How it differs from other home inventory apps
+Most home inventory apps are built around cataloging: categories, valuations, barcode
+scanning, receipts, and a subscription to keep access to your own list. Kennery does one
+thing — records where an item is and lets you search for it — and charges once.
+
+## What it does not do
+Kennery is not insurance-documentation software. It has no valuation, receipt, serial-number
+or policy fields and produces no insurer-ready report. It records location, not worth.
+
+## Pricing
+- Free tier: track up to 20 items
+- Kennery Pro: $4.99 one-time purchase, no subscription, unlimited items
+
+## Privacy
+No account, no cloud, no analytics, no advertising identifiers. Items and photos are stored
+in on-device storage only. Users can export a personal backup file and re-import it.
+
+## Author
+Thomas Hornig
+
+## Link
+https://kennery.app/
+
+## Download
+Apple App Store (iPhone, iOS): https://apps.apple.com/app/id6789454542
+Released 2026-07-20. Available in 175 countries. No Android version yet.

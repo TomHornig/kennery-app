@@ -1,0 +1,10 @@
+# Internal working files — must NOT be published to the live site.
+# GitHub Pages serves everything committed here, so anything in this repo is
+# publicly fetchable even when nothing links to it.
+*.SNAPSHOT_*
+*.pre_*
+index.html.SNAPSHOT_*
+llms.txt.SNAPSHOT_*
+DNS_INSTRUCTIONS_FOR_NAMECHEAP.md
+PUBLISHED_URL.txt
+.DS_Store
